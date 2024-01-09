@@ -1,6 +1,12 @@
+/* * {
+  width: 1600px;
+  height: 7335px;
+} */
+
 .banner-container {
   width: 1320px;
   height: 600px;
+  margin: 0 200px;
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-repeat: no-repeat;
@@ -26,11 +32,10 @@
   margin-bottom: 30px;
   padding-top: 10px;
 }
-/* section-style */
+
+/* banner-2-title */
 .container-title {
-  width: 1600px;
-  height: 7335px;
-  background: #fff;
+  margin-top: 15px;
 }
 
 .offer {
@@ -54,8 +59,153 @@
   font-weight: 700;
 }
 
-.picture{
+.picture {
   width: 800px;
   height: 500px;
   padding-left: 500px;
+}
+
+/* banner-3-style */
+.banner {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../resources/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  margin-bottom: 0;
+  margin: 15px 200px;
+}
+
+.welcome {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  margin-top: 50px;
+}
+
+.dolor {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #10e3c7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+}
+
+.banner .photo {
+  width: 319.83px;
+  height: 464.662px;
+  padding: 200px;
+  justify-content: center;
+  align-items: center;
+}
+/* banner-4 style */
+.new {
+  width: 1320px;
+  height: 482px;
+  background: (180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+  text-align: center;
+  padding: 80px;
+  margin: 0 200px;
+}
+
+.color {
+  color: red;
+}
+.btn-primary {
+  color: wheat;
+  background-color: red;
+  border: none;
+}
+
+.place {
+  font-size: 32px;
+}
+
+/* banner-5-style */
+.mim {
+  display: flex;
+  margin: 0 200px;
+  background-color: #fff;
+  background-image: url(../resources/Group\ 96.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.best {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.coming {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sit {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.pic {
+  width: 363px;
+  height: 363px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+
+.title {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.amet {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: right;
+}
+/* banner-6-style */
+.div {
+  /* width: 1600px;
+  height: 7335px; */
+  margin: 0 200px;
+}
+
+.is {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sale {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+#holiday {
+  color: red;
+}
+
+.sed {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
 }
