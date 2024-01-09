@@ -1,35 +1,30 @@
-/* * {
-  width: 1600px;
-  height: 7335px;
-} */
-
 .banner-container {
   width: 1320px;
   height: 600px;
   margin: 0 200px;
   border-radius: 16px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-color: black;
   background-repeat: no-repeat;
   background-image: url(../resources/Banner\ Image.png);
 }
 
 .banner-greeting {
-  color: #e7070f;
+  color: hsla(249, 90%, 48%, 0.893);
   text-align: center;
   font-size: 32px;
   font-weight: 400;
-  margin-top: 0;
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 50px;
 }
 
 .banner-containt {
-  color: #0dd370;
+  color: #07f165d7;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
   margin-top: 5px;
   margin-bottom: 30px;
+  margin: 100px 0;
   padding-top: 10px;
 }
 
@@ -83,6 +78,7 @@
   font-weight: 900;
   line-height: 88px;
   margin-top: 50px;
+  margin: 0 60px;
 }
 
 .dolor {
@@ -90,14 +86,15 @@
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 20px;
+  margin: 0 60px;
 }
 
 .btn {
-  color: #10e3c7;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
   padding: 5px;
-  border: none;
+  margin: 0 60px;
 }
 
 .banner .photo {
@@ -178,10 +175,8 @@
   line-height: 32px;
   text-align: right;
 }
-/* banner-6-style */
+/* banner-6 -main-style */
 .div {
-  /* width: 1600px;
-  height: 7335px; */
   margin: 0 200px;
   background-repeat: no-repeat;
   background-position: right center;
@@ -257,9 +252,40 @@
   border: none;
 }
 
-.tumi{
+.tumi {
   width: 310px;
   height: 32px;
   border: none;
   border-radius: 17px;
+}
+
+/* footert-section */
+footer {
+  display: flex;
+  gap: 100px;
+  background-color: #070211;
+  margin-top: 100px;
+  padding: 130px 230px;
+}
+
+.footer-colum {
+  width: 50%;
+}
+.section-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.social-link {
+  margin: 0 200px;
+  display: flex;
+}
+
+.buttton {
+  margin: 120px 200px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
 }
